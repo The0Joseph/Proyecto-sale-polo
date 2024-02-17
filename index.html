@@ -18,31 +18,24 @@
                 <a class="navbar-brand" href="#">
                     <img src="backimg.jpg" alt="" width="60">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                    <div class="">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">
-                                    <i class="fa-brands fa-tiktok"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="link-social">
+                    <ul class="m-auto">
+                        <li class="link-tiktok">
+                            <a class="" href="index.html">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </li>
+                        <li class="link-instagram">
+                            <a class="" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="link-whatsapp">
+                            <a class="" href="#">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -61,9 +54,20 @@
                 <div class="card border border-0" >
                     <div class="position-relative">
                         <img src="polo01.jpg" class="card-img-top" alt="...">
-                        <a href="#" class="btn btn-success position-absolute bottom-0 end-0 m-2" >
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
+                        <div class="position-absolute top-0 end-0 m-3 bg-secondary-subtle px-3 fw-bold">
+                            Nuevo
+                        </div>
+                        <!-- buttoms flex-columns -->
+                        <div class="position-absolute bottom-0 end-0 m-2">
+                            <div class="d-flex flex-column-reverse">
+                                <a href="#" class="btn btn-success " >
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="btn btn-light mb-2" >
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -75,9 +79,17 @@
                 <div class="card border border-0" >
                     <div class="position-relative">
                         <img src="polo02.jpg" class="card-img-top" alt="...">
-                        <a href="#" class="btn btn-success position-absolute bottom-0 end-0 m-2" >
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
+                        <!-- buttoms flex-columns -->
+                        <div class="position-absolute bottom-0 end-0 m-2">
+                            <div class="d-flex flex-column-reverse">
+                                <a href="#" class="btn btn-success " >
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="btn btn-light mb-2" >
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -136,22 +148,16 @@
                 </div>
             </div>
             <div class="col-12 col-md-3">
-                <div class="row row-cols-3 row-cols-md-3 ">
-                    <div class="col pt-5 text-center">
-                        <a class="border p-3 text-danger border border-danger border-2" href="#">
-                            <i class="fa-brands fa-youtube fs-5"></i>
-                        </a>
-                    </div>
-                    <div class="col pt-5 text-center">
-                        <a class="border p-3 text-primary border border-primary border-2" href="#">
-                            <i class="fa-brands fa-facebook fs-5 "></i>
-                        </a>
-                    </div>
-                    <div class="col pt-5 text-center">
-                        <a class="border p-3 text-success border border-success border-2" href="#">
-                            <i class="fa-solid fa-radio fs-5"></i>
-                        </a>
-                    </div>
+                <div class="d-flex justify-content-center aling-items-center">
+                    <a class="border p-3 mx-2 text-danger border border-danger border-2" href="#" style="border-radius: 30%;">
+                        <i class="fa-brands fa-youtube fs-5"></i>
+                    </a>
+                    <a class="border p-3 mx-2 text-primary border border-primary border-2" href="#" style="border-radius: 30%;">
+                        <i class="fa-brands fa-facebook fs-5 "></i>
+                    </a>
+                    <a class="border p-3 mx-2 text-success border border-success border-2" href="#" style="border-radius: 30%;">
+                        <i class="fa-solid fa-radio fs-5"></i>
+                    </a>
                 </div>
             </div>
         </div>

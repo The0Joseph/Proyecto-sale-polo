@@ -3,6 +3,58 @@
     height: 550px;
     object-fit: cover;
 }
+.link-social{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+.link-social ul{
+    display: flex;
+}
+
+.link-social ul li{
+    font-size: 19px;
+    margin: 0 10px 0 0;
+    list-style-type: none;
+    
+    /* background-color: blue; */
+    
+}
+.link-social ul li a{
+    padding: 10px 16px;
+    border-radius: 20%;
+    transition: all 0.2s ease-out;
+}
+
+.link-tiktok a{
+    color: black;
+    border: 1px solid black;
+}
+.link-tiktok:hover a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.879)
+}
+
+.link-instagram a{
+    color: #E1306C;
+    border: 1px solid #b4325e;
+}
+
+.link-instagram:hover a{
+    color: white;
+    background: linear-gradient(43deg, #f09432 0%,#ea6b3d 25%,#dc2843 50%,#d6256c 75%,#ba1886 100%);
+}
+.link-whatsapp a{
+    color: green;
+    border: 1px solid green;
+}
+.link-whatsapp:hover a{
+    color: white;
+    background-color: rgba(25,135,84);
+    
+}
+
+
 /* .products{
     margin-top: 90px;
 } */
@@ -33,3 +85,4 @@
     
     
 }
+
